@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-		sh 'npm config set http://tut1sf4:Sensemilq94223!@rb-proxy-de.bosch.com:8080'
+		sh 'npm config set proxy http://tut1sf4:Sensemilq94223!@rb-proxy-de.bosch.com:8080'
                 sh 'npm install'
             }
         }
